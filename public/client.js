@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const socket = io('http://localhost:3000', {
+    const socket = io('https://socketchat-35zk.onrender.com', {
         transports: ['websocket', 'polling']
     });
 
